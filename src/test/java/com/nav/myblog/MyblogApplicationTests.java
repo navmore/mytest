@@ -1,6 +1,5 @@
 package com.nav.myblog;
 
-import com.nav.myblog.comments.Constents;
 import com.nav.myblog.entity.User;
 import com.nav.myblog.service.UserService;
 import org.junit.jupiter.api.Test;
@@ -21,6 +20,7 @@ class MyblogApplicationTests {
         user.setIsActive("1");
         System.out.println(service.queryOne(user));
         logger.info("aaa");
+        System.out.println("aaaa");
     }
 
 }
